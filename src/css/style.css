@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    background: radial-gradient(#ffffff, #BFABD0);
+}
+
+.filho{  
+    background-image: url(/public/images/RELOGIOV2.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 70%;
+    margin: 0;
+    padding: 0;
+}
+
+.topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topo img{
+    width: 350px;
+}
+
+#faixa{
+    background-image: linear-gradient(to top, #ffffff, #BFABD0);
+    width: 100vw;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+#section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h4 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 75% !important;
+  }
+  
+  label {
+    width: 120px;
+    margin-right: 10px; 
+    text-align: right; 
+  }
+  
+  input.form-control, select.form-control {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .invalid-feedback {
+    display: none;
+    color: red;
+    font-size: 0.875rem;
+  }
+  
+  .is-invalid {
+    border-color: red;
+  }
+  
+  .btn-primary {
+    width: 50%;
+    margin-bottom: 15px;
+    background-color: #7E479B !important;
+    border-color: #9370DB !important;
+  }
+  
+  a.btn-link {
+    text-decoration: none;
+    color: #7E479B !important;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  a.btn-link:hover {
+    text-decoration: underline;
+  }
+
+#titulo{
+    font-size: 1.2em;
+    color: #7E479B;
+    margin-top: -40px;
+}
+
+#link{
+    color: #7E479B;
+    text-decoration: none;
+}
+
+.icones-img {
+    padding: 20px;
+}
+
+.icones1, .icones2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.icones1 img, .icones2 img {
+    max-width: 120px;
+    width: 100%; 
+    height: auto;
+}
+
+.success-message {
+    background-color: #28a745; 
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .success-message span {
+    margin-left: 10px; 
+  }
+  
+  .success-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+@media (max-width: 768px) {
+    .icones1, .icones2 {
+        gap: 30px; 
+    }
+
+    .icones1 img, .icones2 img {
+        max-width: 100px; 
+    }
+
+    .icones2 {
+        margin-top: 40px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .icones1, .icones2 {
+        gap: 20px; 
+    }
+
+    .icones1 img, .icones2 img {
+        max-width: 80px;
+    }
+
+    .icones1, .icones2 {
+        justify-content: space-around; 
+    }
+}
+
+  
